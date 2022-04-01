@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		EF6A793027F677C700356245 /* GradesApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A792F27F677C700356245 /* GradesApp_iOSApp.swift */; };
-		EF6A793227F677C700356245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A793127F677C700356245 /* ContentView.swift */; };
+		EF6A793227F677C700356245 /* GradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A793127F677C700356245 /* GradesView.swift */; };
 		EF6A793427F677C900356245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A793327F677C900356245 /* Assets.xcassets */; };
 		EF6A793727F677C900356245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A793627F677C900356245 /* Preview Assets.xcassets */; };
+		EF6A793E27F67CCD00356245 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A793D27F67CCC00356245 /* HomeView.swift */; };
+		EF6A794027F67CE000356245 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A793F27F67CE000356245 /* AddView.swift */; };
+		EF6A794227F67D0D00356245 /* BottomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A794127F67D0D00356245 /* BottomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF6A792C27F677C700356245 /* GradesApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GradesApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6A792F27F677C700356245 /* GradesApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesApp_iOSApp.swift; sourceTree = "<group>"; };
-		EF6A793127F677C700356245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF6A793127F677C700356245 /* GradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesView.swift; sourceTree = "<group>"; };
 		EF6A793327F677C900356245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6A793627F677C900356245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF6A793D27F67CCC00356245 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EF6A793F27F67CE000356245 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		EF6A794127F67D0D00356245 /* BottomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				EF6A792F27F677C700356245 /* GradesApp_iOSApp.swift */,
-				EF6A793127F677C700356245 /* ContentView.swift */,
+				EF6A793127F677C700356245 /* GradesView.swift */,
 				EF6A793327F677C900356245 /* Assets.xcassets */,
 				EF6A793527F677C900356245 /* Preview Content */,
+				EF6A793D27F67CCC00356245 /* HomeView.swift */,
+				EF6A793F27F67CE000356245 /* AddView.swift */,
+				EF6A794127F67D0D00356245 /* BottomTabBarView.swift */,
 			);
 			path = "GradesApp-iOS";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6A793227F677C700356245 /* ContentView.swift in Sources */,
+				EF6A794027F67CE000356245 /* AddView.swift in Sources */,
+				EF6A793E27F67CCD00356245 /* HomeView.swift in Sources */,
+				EF6A794227F67D0D00356245 /* BottomTabBarView.swift in Sources */,
+				EF6A793227F677C700356245 /* GradesView.swift in Sources */,
 				EF6A793027F677C700356245 /* GradesApp_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
